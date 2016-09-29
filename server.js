@@ -8,7 +8,8 @@ app.use(morgan('combined'));
    	res.sendFile(path.join(__dirname, 'ui', 'index.html'));
  });
 
-var articleOne= {
+var articles= {
+    articleOne: {
     title:"Article1! Mathew Thomas",
     heading:"Article One",
     date:"Sept 16 2016",
@@ -22,6 +23,37 @@ var articleOne= {
              <p>
                 This is my content for first article,This is my content for first article,This is my content for first article,This is my content for first article,This is my content for first article,This is my content for first article,This is my content for first article,
             </p>`
+},
+    articleTwo: { 
+        title:"Article1! Mathew Thomas",
+    heading:"Article Two",
+    date:"Sept 20 2016",
+    content:
+            `<p>
+                This is my content for Second article,This is my content for first article,This is my content for first article,This is my content for first article,This is my content for first article,This is my content for first article,This is my content for first article,
+            </p>
+             <p>
+                This is my content for first article,This is my content for first article,This is my content for first article,This is my content for first article,This is my content for first article,This is my content for first article,This is my content for first article,
+            </p>
+             <p>
+                This is my content for first article,This is my content for first article,This is my content for first article,This is my content for first article,This is my content for first article,This is my content for first article,This is my content for first article,
+            </p>`
+        
+    },
+    articleThree: { 
+    title:"Article1! Mathew Thomas",
+    heading:"Article Three",
+    date:"Sept 25 2016",
+    content:
+            `<p>
+                This is my content for Third article,This is my content for first article,This is my content for first article,This is my content for first article,This is my content for first article,This is my content for first article,This is my content for first article,
+            </p>
+             <p>
+                This is my content for first article,This is my content for first article,This is my content for first article,This is my content for first article,This is my content for first article,This is my content for first article,This is my content for first article,
+            </p>
+             <p>
+                This is my content for first article,This is my content for first article,This is my content for first article,This is my content for first article,This is my content for first article,This is my content for first article,This is my content for first article,
+            </p>`},
 };
 function createTemplate (date) {
     var title=data.title;
