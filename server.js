@@ -23,7 +23,7 @@ var articles= {
             </p>`
 },
     'article-two': { 
-        title:"Article Two! Mathew Thomas",
+    title:"Article Two! Mathew Thomas",
     heading:"Article Two",
     date:"Sept 20 2016",
     content:
@@ -51,12 +51,14 @@ var articles= {
             </p>
              <p>
                 This is my content for first article,This is my content for first article,This is my content for first article,This is my content for first article,This is my content for first article,This is my content for first article,This is my content for first article,
-            </p>`},
+            </p>`
+        
+    },
 };
 function createTemplate (date) {
     var title = data.title;
     var heading = data.heading;
- 
+    var date = data.date;
     var content=data.content;
     
 var htmlTemplate=`
