@@ -4,3 +4,8 @@ var element = document.getElementById('main.text'
 );
 
 element.innerHTML = 'Newvalue';
+//change the image
+var img = document.getElementById('madi');
+img.onclick = function() {
+    img.style.marginleft='100px';
+}
