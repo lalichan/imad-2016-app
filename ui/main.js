@@ -3,4 +3,4 @@ console.log('Loaded!');
 var element = document.getElementById('main'
 );
 
-element.inerthtml='Newvalue';
+element.innerHTML='Newvalue';
