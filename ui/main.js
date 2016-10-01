@@ -3,7 +3,7 @@ console.log('Loaded!');
 var element = document.getElementById('main-text'
 );
 
-element.innerHTML='Newvalue';
+element.innerHTML="Newvalue";
 
 //change the image
 var img = document.getElementById('madi');
