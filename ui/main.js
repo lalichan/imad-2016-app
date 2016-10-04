@@ -18,6 +18,6 @@ button.onclick= function() {
  // not done yet
  };
  // Make a request 
- request.open('GET','http://lalichan.imad.hasura-app.io/counter',true)
+ request.open('GET','http://lalichan.imad.hasura-app.io',true)
  request.send(null);
 };
